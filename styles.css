@@ -1,27 +1,26 @@
-
-
+/* FOR MOBILE */
 @media (max-width: 768px) {
     .main-image {
-        height: 100vw; /* Set height equal to the width of the device */
+        height: 120vw;
         width: 100%;
         object-fit: cover;
     }
 
     .samasa {
         font-family: 'Barlow Condensed';
-        font-size: 3.2vh;
+        font-size: 5.5vh;
         color: white;
         letter-spacing: 1.2vw;
         position: absolute;
-        top: 3.2vh;
+        top: 5vh;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
     .coming-soon {
         border-radius: 2vmin;
-        font-family: 'playfair display';
-        letter-spacing: 0.3vw;
+        font-family: 'segoe ui';
+        letter-spacing: 0.1vw;
         font-size: 3vh; /* Adjust font size with screen size */
         color: white;
         position: absolute;
@@ -36,11 +35,11 @@
     }
 
     .contact-us {
-        font-family: 'playfair display';
+        font-family: 'segoe ui';
         font-size: 2.8vh;
         transform: translate(-50%);
         left: 50%;
-        color: rgb(199, 199, 199);
+        color: rgb(212, 212, 212);
         letter-spacing: 0.3vw;
         position: relative;
         text-align: center;
@@ -68,9 +67,9 @@
     
     .coming-soon {
         border-radius: 10px;
-        font-family: 'playfair display';
-        letter-spacing: 0.3vw;
-        font-size: 2.8vh; /* Adjust font size with screen size */
+        font-family: 'segoe ui';
+        font-size: 3.2vh; /* Adjust font size with screen size */
+        letter-spacing: 1px;
         color: white;
         position: absolute;
         top: 53%;
@@ -84,12 +83,12 @@
     }
 
     .contact-us {
-        font-family: 'playfair display';
-        font-size: 2.3vh;
+        font-family: 'segoe ui';
+        font-size: 3vh;
         transform: translate(-50%);
         left: 50%;
-        color: rgb(199, 199, 199);
-        letter-spacing: 0.3vw;
+        color: rgb(212, 212, 212);
+        letter-spacing: 1px;
         /* position: absolute; */
         padding-top: 2vh;
         position: relative;
@@ -118,4 +117,14 @@
     width: 6%;
     border: 0.5px solid rgb(83, 83, 83);
     margin-top: 2vh;
+}
+
+.contact_footer {
+    font-family: 'segoe ui';
+    font-size: 1.8vh;
+}
+
+.mail-to {
+    color: white;
+    text-decoration: underline;
 }
